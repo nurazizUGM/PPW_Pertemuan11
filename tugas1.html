@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1</title>
+</head>
+
+<body>
+    <script>
+        const bil1 = parseInt(prompt("Input bilangan 1"));
+        const bil2 = parseInt(prompt("Input bilangan 2"));
+        if (isNaN(bil1)) {
+            document.write('<h1>BILANGAN KE-1 BUKAN INTEGER</h1>')
+        } else if (isNaN(bil2)) {
+            document.write('<h1>BILANGAN KE-2 BUKAN INTEGER</h1>')
+        } else if (bil1 > bil2) {
+            document.write('<h1>BILANGAN KE-1 LEBIH BESAR DARI BILANGAN KE-2</h1>')
+        } else if (bil1 < bil2) {
+            document.write('<h1>BILANGAN KE-1 LEBIH KECIL DARI BILANGAN KE-2</h1>')
+        } else {
+            document.write('<h1>BILANGAN KE-1 SAMA DENGAN BILANGAN KE-2</h1>')
+        }
+    </script>
+</body>
+
+</html>
